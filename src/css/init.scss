@@ -1,0 +1,15 @@
+:global {
+  :root {
+    /* グローバルスコープでのCSS変数定義 (CSS Modulesでは非推奨) */
+  }
+  * { overflow: hidden; }
+  body { margin: 0; }
+  .content {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media all and (orientation: portrait){
+  /* ポートレート画面時のスタイル */
+}
